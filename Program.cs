@@ -17,7 +17,9 @@ namespace Homework6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Rectangle s = new Rectangle();
+            s.side1 = 2.4;
+            s.side2 = 5.7;
         }
     }
 }
