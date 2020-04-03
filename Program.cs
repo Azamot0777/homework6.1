@@ -9,6 +9,21 @@ namespace Homework6
         public double side1 { get; set; }
         public double side2 { get; set; }
 
+        public double Area { get; }
+
+        public double Perimetr { get; }
+
+        public void AreaCalculator(double)
+        {
+
+        }
+
+        public void PerimetrCalculator(double)
+        {
+
+        }
+
+
 
     }
 
@@ -18,8 +33,8 @@ namespace Homework6
         static void Main(string[] args)
         {
             Rectangle s = new Rectangle();
-            s.side1 = 2.4;
-            s.side2 = 5.7;
+            s.side1 = double.Parse(Console.ReadLine());
+            s.side2 = double.Parse(Console.ReadLine());
         }
     }
 }
