@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AlifAcademy\\Homework6\\Homework6.csproj",
+      "projectUniqueName": "C:\\AlifAcademy\\Homework6.1\\Homework6.csproj",
       "projectName": "Homework6",
-      "projectPath": "C:\\AlifAcademy\\Homework6\\Homework6.csproj",
+      "projectPath": "C:\\AlifAcademy\\Homework6.1\\Homework6.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\AlifAcademy\\Homework6\\obj\\",
+      "outputPath": "C:\\AlifAcademy\\Homework6.1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

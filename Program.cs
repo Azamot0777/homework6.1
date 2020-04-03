@@ -11,10 +11,10 @@ namespace Homework6
 
         public double area { get; set; }
 
-        public double Perimetr { get; set; }
+        public double perimetr { get; set; }
 
-        public Init() { }
-        public Init(double side1, double side2)
+        public Rectangle() { }
+        public Rectangle(double side1, double side2)
         {
             this.side1 = side1;
             this.side2 = side2;
@@ -27,12 +27,12 @@ namespace Homework6
 
         public double PerimetrCalculator(double side1, double side2)
         {
-            Perimetr = (side1 + side2) * 2;
-            return Perimetr;
+            perimetr = (side1 + side2) * 2;
+            return perimetr;
         }
 
-        public double Area { get { return Area; } }
-        public double Perimetr {get { return Perimetr; } }
+        public double Area { get { return area; } }
+        public double Perimetr { get { return perimetr; } }
 
     }
 
@@ -42,9 +42,10 @@ namespace Homework6
         static void Main(string[] args)
         {
             Rectangle s = new Rectangle();
-            System.Console.WriteLine("Side 1 = ");
+            double side1, side2;
+            System.Console.Write("Side 1 = ");
             s.side1 = double.Parse(Console.ReadLine());
-            System.Console.WriteLine("Side 2 = ");
+            System.Console.Write("Side 2 = ");
             s.side2 = double.Parse(Console.ReadLine());
             s.AreaCalculator(side1, side2);
             System.Console.WriteLine($"Area is {s.Area}");
@@ -52,4 +53,6 @@ namespace Homework6
             System.Console.WriteLine($"Perimetr is {s.Perimetr}");
         }
     }
+
+    
 }
